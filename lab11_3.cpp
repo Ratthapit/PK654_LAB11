@@ -26,4 +26,6 @@ int main(){
     cout << setprecision(3);
     cout << "Mean = "<<msum/count<<"\n";
     cout << "Standard deviation = "<<sqrt((ssum/count)-pow((msum/count),2))<<"\n";
+
+    return 0;
 }
